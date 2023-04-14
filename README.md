@@ -1,2 +1,2 @@
 # What is this Project about?
-News API Email
+This app accesses news about particular topic and sends them by email.
