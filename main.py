@@ -12,10 +12,10 @@ url = "https://newsapi.org/v2/everything?"\
     "language=en"
 
 # Make request
-request = requests.get(url)
+response = requests.get(url)
 
 # Get a dictionary with data
-content = request.json()
+content = response.json()
 
 # Access the article titles and description
 body = ""
